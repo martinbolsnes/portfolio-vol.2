@@ -17,6 +17,7 @@ const PrimaryButton = styled.button`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: var(--size);
 
   ${media.lessThan('medium')`
   width: 150px;
