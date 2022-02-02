@@ -22,7 +22,7 @@ export default function Home() {
         <Main>
           <HeroWrapper>
             <HeroContainer>
-              <HeroParagraph>Hi there, I'm</HeroParagraph>
+              <HeroParagraph>Hi there, Im</HeroParagraph>
               <HeroHeading>
                 Martin Bolsønes
                 <br />
