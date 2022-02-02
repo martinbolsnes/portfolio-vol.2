@@ -1,1 +1,18 @@
+.orangeLine {
+  height: 4px;
+  width: 45px;
+  background-color: #f58800;
+  border-radius: 2px;
+}
 
+.heroImg {
+  background-image: url(../public/Group\ 37.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 50%;
+  z-index: 100;
+  margin-left: -130px;
+  margin-top: 50px;
+}

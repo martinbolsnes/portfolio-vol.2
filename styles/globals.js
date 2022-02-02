@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
 :root {
     --font-body: Montserrat, Helvetica Neue, sans-serif;
     --font-headings: Inter, sans-serif;
+    --font-logo: Righteous, cursive;
   
     --font-size-base: 16px;
     --font-size-xxs: 0.296rem;
@@ -111,6 +112,7 @@ const GlobalStyle = createGlobalStyle`
   html,
   body {
     height: 100%;
+    overflow-x: hidden;
   }
   
   *,
