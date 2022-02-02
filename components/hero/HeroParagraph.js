@@ -5,7 +5,7 @@ const HeroParagraph = styled.p`
   width: 80%;
   font-size: var(--font-size-md);
   line-height: 150%;
-  margin-bottom: 0;
+  margin: 0;
 
   ${media.lessThan('large')`
   width: 90%`}
