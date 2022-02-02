@@ -3,14 +3,14 @@ import Body from '../components/body/Body';
 import Main from '../components/main/Main';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
-import HeroHeading from '../components/hero/HeroHeading';
-import HeroHeadingSpan from '../components/hero/HeroHeadingSpan';
 import HeroContainer from '../components/hero/Herocontainer';
-import HeroParagraph from '../components/hero/HeroParagraph';
-import NavBar from '../components/header/Navbar';
 import PrimaryButton from '../components/buttons/PrimaryButton';
 import SecondaryButton from '../components/buttons/SecondaryButton';
 import HeroWrapper from '../components/hero/HeroWrapper';
+import HeroHeading from '../components/hero/HeroHeading';
+import HeroHeadingSpan from '../components/hero/HeroHeadingSpan';
+import HeroParagraph from '../components/hero/HeroParagraph';
+import NavBar from '../components/header/Navbar';
 
 export default function Home() {
   return (
