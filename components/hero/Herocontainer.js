@@ -5,6 +5,7 @@ const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: var(--size-sm);
   padding: 0;
   width: 50%;
   margin-top: -150px;
