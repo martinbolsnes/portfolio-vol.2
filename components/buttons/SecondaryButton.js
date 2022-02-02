@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 const SecondaryButton = styled.button`
   width: 295px;
@@ -16,6 +17,11 @@ const SecondaryButton = styled.button`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  ${media.lessThan('medium')`
+  width: 210px;
+  height: 40px;
+  font-size: var(--font-size-base);`}
 `;
 
 export default SecondaryButton;

@@ -6,8 +6,6 @@ const Logo = styled.p`
   color: var(--color-quaternary);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--color-black);
-  display: flex;
-  justify-self: flex-start;
   margin: 0;
 `;
 

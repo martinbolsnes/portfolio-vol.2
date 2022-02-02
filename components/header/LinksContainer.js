@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 const LinksContainer = styled.ul`
+  flex: 2;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  position: absolute;
-  right: 40%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export default LinksContainer;

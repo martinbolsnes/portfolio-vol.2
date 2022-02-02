@@ -87,18 +87,7 @@ const GlobalStyle = createGlobalStyle`
     --shadow-2: 0 5px 6px 0 rgb(0 0 0 / 14%);
     --shadow-3: 0 8px 10px 0 rgb(0 0 0 / 14%);
 
-    ${media.greaterThan('huge')`
-      --font-size-base: 18px;
     
-      --size-xxs: 6px;
-      --size-xs: 8px;
-      --size-sm: 16px;
-      --size: 24px;
-      --size-md: 36px;
-      --size-lg: 54px;
-      --size-xl: 81px;
-      --size-xxl: 122px;
-    `}
   
   }
   

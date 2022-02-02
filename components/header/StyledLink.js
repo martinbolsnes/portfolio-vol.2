@@ -5,7 +5,7 @@ const StyledLink = styled.li`
   font-weight: var(--font-weight-black);
   text-decoratioin: none;
   list-style: none;
-  margin: 16px 16px 2px 16px;
+  margin: 2px 16px 2px 16px;
   color: var(--color-black);
   opacity: 0.6;
 
@@ -17,7 +17,7 @@ const StyledLink = styled.li`
   :hover {
     border-bottom: 2px solid var(--color-secondary);
     cursor: pointer;
-    margin: 16px 16px 0px 16px;
+    margin: 2px 16px 0px 16px;
   }
 `;
 

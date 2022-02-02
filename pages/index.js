@@ -7,7 +7,7 @@ import HeroHeading from '../components/hero/HeroHeading';
 import HeroHeadingSpan from '../components/hero/HeroHeadingSpan';
 import HeroContainer from '../components/hero/Herocontainer';
 import HeroParagraph from '../components/hero/HeroParagraph';
-import Navigation from '../components/header/Navbar';
+import NavBar from '../components/header/Navbar';
 import PrimaryButton from '../components/buttons/PrimaryButton';
 import SecondaryButton from '../components/buttons/SecondaryButton';
 import HeroWrapper from '../components/hero/HeroWrapper';
@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Body>
         <Header>
-          <Navigation />
+          <NavBar />
         </Header>
         <Main>
           <HeroWrapper>

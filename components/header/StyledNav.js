@@ -1,17 +1,19 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 const StyledNav = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 60px;
+  height: inherit;
   width: 100%;
-  background-color: var(--color-white);
   display: flex;
   align-items: center;
-  margin-right: var(--size-xl);
-  margin-left: var(--size-xl);
-  z-index: var(--z-sky);
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  padding-right: var(--size-xl);
+  padding-left: var(--size-xl);
+
+  ${media.lessThan('medium')`
+  padding-right: var(--size-md);
+  padding-left: var(--size-md);`}
 `;
 
 export default StyledNav;

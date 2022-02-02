@@ -1,26 +1,27 @@
-import react from 'react';
+import { useState } from 'react';
 import StyledNav from './StyledNav';
 import StyledLink from './StyledLink';
 import Logo from './Logo';
 import LogoDot from '../header/LogoDot';
+import LogoDiv from './LogoDiv';
 import LinksContainer from './LinksContainer';
+import HamburgerIcon from './HamburgerIcon';
 
-const Navigation = () => {
+export default function NavBar() {
   return (
     <StyledNav>
-      <div>
+      <LogoDiv>
         <Logo>
           mb<LogoDot>.</LogoDot>
         </Logo>
-      </div>
-      <LinksContainer>
+      </LogoDiv>
+      <LinksContainer className='linksContainer'>
         <StyledLink>Home</StyledLink>
         <StyledLink>About</StyledLink>
         <StyledLink>Projects</StyledLink>
         <StyledLink>Contact</StyledLink>
       </LinksContainer>
+      <HamburgerIcon />
     </StyledNav>
   );
-};
-
-export default Navigation;
+}
