@@ -3,9 +3,15 @@ import media from 'styled-media-query';
 import { Twitter } from 'react-feather';
 
 const TwitterIcon = styled(Twitter)`
+  cursor: pointer;
+
+  :hover {
+    stroke: var(--color-secondary);
+  }
+
   ${media.lessThan('medium')`
-width: 36px;
-height: 36px;`}
+    width: 36px;
+    height: 36px;`}
 `;
 
 export default TwitterIcon;
