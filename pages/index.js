@@ -11,6 +11,7 @@ import HeroHeading from '../components/hero/HeroHeading';
 import HeroHeadingSpan from '../components/hero/HeroHeadingSpan';
 import HeroParagraph from '../components/hero/HeroParagraph';
 import NavBar from '../components/header/Navbar';
+import SoMeContainer from '../components/hero/SoMeContainer';
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
               </div>
             </HeroContainer>
             <div className={styles.heroImg}></div>
+            <SoMeContainer />
           </HeroWrapper>
         </Main>
         <Footer></Footer>
