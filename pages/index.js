@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Home.module.css';
 import Body from '../components/body/Body';
 import Main from '../components/main/Main';
@@ -23,7 +24,7 @@ export default function Home() {
         <Main>
           <HeroWrapper>
             <HeroContainer>
-              <HeroParagraph>Hi there, Im</HeroParagraph>
+              <HeroParagraph>Hi there, I'm</HeroParagraph>
               <HeroHeading>
                 Martin Bolsønes
                 <br />
