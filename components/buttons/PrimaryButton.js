@@ -22,7 +22,8 @@ const PrimaryButton = styled.button`
   ${media.lessThan('medium')`
   width: 150px;
   height: 40px;
-  font-size: var(--font-size-base);`}
+  font-size: var(--font-size-base);
+  padding: 10px 16px 12px;`}
 `;
 
 export default PrimaryButton;
