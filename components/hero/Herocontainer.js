@@ -8,7 +8,6 @@ const HeroContainer = styled.div`
   gap: var(--size-sm);
   padding: 0;
   width: 50%;
-  margin-top: -150px;
 
   ${media.lessThan('small')`
   width: 90%;

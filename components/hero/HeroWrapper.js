@@ -7,6 +7,7 @@ const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: -70px;
 
   ${media.lessThan('small')`
   flex-direction: column;`}
