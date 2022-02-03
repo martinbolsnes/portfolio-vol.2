@@ -20,9 +20,9 @@ const SecondaryButton = styled.button`
   margin-top: var(--size);
 
   ${media.lessThan('medium')`
-  width: 160px;
+  width: 200px;
   height: 35px;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   padding: 10px 16px 12px;
   margin: 0;`}
 `;
