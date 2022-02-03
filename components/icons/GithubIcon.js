@@ -4,8 +4,8 @@ import { GitHub } from 'react-feather';
 
 const GithubIcon = styled(GitHub)`
   ${media.lessThan('medium')`
-width: 26px;
-height: 26px;`}
+width: 36px;
+height: 36px;`}
 `;
 
 export default GithubIcon;

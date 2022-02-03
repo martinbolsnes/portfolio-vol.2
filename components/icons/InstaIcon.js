@@ -4,8 +4,8 @@ import { Instagram } from 'react-feather';
 
 const InstagramIcon = styled(Instagram)`
   ${media.lessThan('medium')`
-width: 26px;
-height: 26px;`}
+width: 36px;
+height: 36px;`}
 `;
 
 export default InstagramIcon;
