@@ -13,6 +13,7 @@
   height: 85%;
   width: 70%;
   z-index: 100;
+  margin-left: -50px;
 }
 
 .btnContainer {
@@ -49,9 +50,7 @@
   }
 
   .imgSomeContainer {
-    width: 100%;
     justify-content: center;
-    margin-top: -120px;
   }
 
   .some_container {
@@ -62,5 +61,10 @@
 @media (max-width: 768px) {
   .orangeLine {
     width: 35px;
+  }
+
+  .imgSomeContainer {
+    width: 100%;
+    margin-top: -120px;
   }
 }
