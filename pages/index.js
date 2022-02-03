@@ -35,15 +35,15 @@ export default function Home() {
                 applications and is eager to learn and emprove in both design
                 and programming.
               </HeroParagraph>
-              <div
-                style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}
-              >
+              <div className={styles.btnContainer}>
                 <PrimaryButton>About me</PrimaryButton>
                 <SecondaryButton>Browse my projects</SecondaryButton>
               </div>
             </HeroContainer>
-            <div className={styles.heroImg}></div>
-            <SoMeContainer />
+            <div className={styles.imgSomeContainer}>
+              <div className={styles.heroImg} />
+              <SoMeContainer></SoMeContainer>
+            </div>
           </HeroWrapper>
         </Main>
         <Footer></Footer>
