@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import StyledNav from './StyledNav';
 import StyledLink from './StyledLink';
 import Logo from './Logo';
@@ -12,14 +11,23 @@ export default function NavBar() {
     <StyledNav>
       <LogoDiv>
         <Logo>
-          mb<LogoDot>.</LogoDot>
+          mb
+          <LogoDot>.</LogoDot>
         </Logo>
       </LogoDiv>
       <LinksContainer className='linksContainer'>
-        <StyledLink>Home</StyledLink>
-        <StyledLink>About</StyledLink>
-        <StyledLink>Projects</StyledLink>
-        <StyledLink>Contact</StyledLink>
+        <StyledLink>
+          <a>Home</a>
+        </StyledLink>
+        <StyledLink>
+          <a>About</a>
+        </StyledLink>
+        <StyledLink>
+          <a>Projects</a>
+        </StyledLink>
+        <StyledLink>
+          <a>Contact</a>
+        </StyledLink>
       </LinksContainer>
       <HamburgerIcon />
     </StyledNav>
