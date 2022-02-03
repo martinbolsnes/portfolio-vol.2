@@ -15,6 +15,9 @@ const HeroContainer = styled.div`
 
   ${media.lessThan('small')`
   gap: var(--size-sm);`}
+
+  ${media.greaterThan('large')`
+  margin-top: -100px;`}
 `;
 
 export default HeroContainer;
