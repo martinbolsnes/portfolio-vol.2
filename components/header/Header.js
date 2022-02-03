@@ -6,6 +6,7 @@ const Header = styled.header`
   position: fixed;
   flex: 0 0 auto;
   background-color: var(--color-white);
+  z-index: var(--z-sky);
 `;
 
 export default Header;
