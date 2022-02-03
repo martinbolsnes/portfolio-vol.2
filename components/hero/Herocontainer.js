@@ -8,10 +8,11 @@ const HeroContainer = styled.div`
   gap: var(--size-sm);
   padding: 0;
   width: 50%;
+  height: 100%;
 
   ${media.lessThan('small')`
   width: 90%;
-  margin-top: 50px;`}
+  gap: var(--size);`}
 `;
 
 export default HeroContainer;
