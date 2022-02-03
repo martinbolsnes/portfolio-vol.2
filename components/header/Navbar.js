@@ -5,7 +5,7 @@ import Logo from './Logo';
 import LogoDot from '../header/LogoDot';
 import LogoDiv from './LogoDiv';
 import LinksContainer from './LinksContainer';
-import HamburgerIcon from './HamburgerIcon';
+import HamburgerIcon from '../icons/HamburgerIcon';
 
 export default function NavBar() {
   return (
