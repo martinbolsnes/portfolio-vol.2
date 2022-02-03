@@ -8,7 +8,7 @@ const HeroWrapper = styled.div`
   flex-direction: row;
   align-items: center;
 
-  ${media.lessThan('small')`
+  ${media.lessThan('medium')`
   flex-direction: column;`}
 `;
 

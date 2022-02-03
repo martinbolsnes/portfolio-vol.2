@@ -10,8 +10,10 @@ const HeroContainer = styled.div`
   width: 50%;
   height: 100%;
 
+  ${media.lessThan('medium')`
+  width: 90%;`}
+
   ${media.lessThan('small')`
-  width: 90%;
   gap: var(--size-sm);`}
 `;
 
