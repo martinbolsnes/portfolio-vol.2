@@ -4,8 +4,10 @@ import media from 'styled-media-query';
 const Main = styled.div`
   width: 100%;
   flex: 1 1 auto;
-  margin-right: var(--size-xxl);
-  margin-left: var(--size-xxl);
+  display: flex;
+  aligny-items: center;
+  margin-right: var(--size-xl);
+  margin-left: var(--size-xl);
   margin-top: 70px;
 
   ${media.lessThan('medium')`
