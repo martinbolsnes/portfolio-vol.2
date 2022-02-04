@@ -19,17 +19,6 @@ export default function Navigation() {
         <>
           <div className='max-w-7xl mx-auto px-4 sm:px-4 md:px-14 lg:px-2'>
             <div className='relative flex items-center justify-between h-16'>
-              <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
-                {/* Mobile menu button*/}
-                <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-black-100 hover:text-white-100 hover:bg-tertiary-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-tertiary-100'>
-                  <span className='sr-only'>Open main menu</span>
-                  {open ? (
-                    <XIcon className='block h-6 w-6' aria-hidden='true' />
-                  ) : (
-                    <MenuIcon className='block h-6 w-6' aria-hidden='true' />
-                  )}
-                </Disclosure.Button>
-              </div>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
                 <div className='flex-shrink-0 flex items-center'>
                   <h1 className='block lg:hidden h-8 w-auto font-display text-3xl text-logoColor-100 text-stroke-1 text-stroke-black-100'>
@@ -57,6 +46,17 @@ export default function Navigation() {
                       </a>
                     ))}
                   </div>
+                </div>
+                <div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
+                  {/* Mobile menu button*/}
+                  <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-black-100 hover:text-white-100 hover:bg-tertiary-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-tertiary-100'>
+                    <span className='sr-only'>Open main menu</span>
+                    {open ? (
+                      <XIcon className='block h-6 w-6' aria-hidden='true' />
+                    ) : (
+                      <MenuIcon className='block h-6 w-6' aria-hidden='true' />
+                    )}
+                  </Disclosure.Button>
                 </div>
               </div>
             </div>
