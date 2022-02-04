@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 const Header = styled.header`
   width: 100%;
@@ -7,6 +8,13 @@ const Header = styled.header`
   flex: 0 0 auto;
   background-color: var(--color-white);
   z-index: var(--z-sky);
+  padding-right: var(--size-xl);
+  padding-left: var(--size-xl);
+
+  ${media.lessThan('small')`
+  padding-right: var(--size-md);
+  padding-left: var(--size-md);
+  `}
 `;
 
 export default Header;
