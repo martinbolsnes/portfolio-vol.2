@@ -10,6 +10,7 @@ const GithubIcon = styled(GitHub)`
     stroke: var(--color-secondary);
     display: inline-block;
     animation ${rotateIcons} 0.2s linear; 
+    animation-fill-mode: forwards;
   }
 
   ${media.lessThan('medium')`

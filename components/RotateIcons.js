@@ -5,7 +5,7 @@ from {
     transform: rotate(0deg);
 }
 to{
-    transform: rotate(20deg);
+    transform: rotate(10deg);
 }
 
 `;
