@@ -28,9 +28,20 @@ const GlobalStyle = createGlobalStyle`
     --font-weight-bold: 700;
     --font-weight-extra-bold: 800;
     --font-weight-black: 900;
+
+    import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(fab);
+
+export default function BrandIconsFirst() {
+  return <div></div>;
+}
   
     /* SPACING */
   
+    --size-3xs: 2px;
     --size-xxs: 4px;
     --size-xs: 7px;
     --size-sm: 10px;
@@ -120,7 +131,7 @@ const GlobalStyle = createGlobalStyle`
 
   p{
       font-family: var(--font-body);
-      font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-regular);
   }
 `;
 

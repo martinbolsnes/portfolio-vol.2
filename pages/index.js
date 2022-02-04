@@ -13,6 +13,10 @@ import HeroHeadingSpan from '../components/hero/HeroHeadingSpan';
 import HeroParagraph from '../components/hero/HeroParagraph';
 import NavBar from '../components/header/Navbar';
 import SoMeContainer from '../components/hero/SoMeContainer';
+import AboutWrapper from '../components/about/AboutWrapper';
+import H2 from '../components/headings/H2';
+import AboutSection from '../components/about/AboutSection';
+import Paragraph from '../components/paragraph/Paragraph';
 
 export default function Home() {
   return (
@@ -46,6 +50,43 @@ export default function Home() {
               <SoMeContainer></SoMeContainer>
             </div>
           </HeroWrapper>
+          <AboutSection>
+            <AboutWrapper>
+              <H2 style={{ color: 'var(--color-white)' }}>About me</H2>
+              <span className={styles.orangeLine}></span>
+              <Paragraph>
+                <p style={{ color: 'var(--color-white)' }}>
+                  I’m currently studying frontend development at Noroff School
+                  of technology and digital media in Oslo, Norway. I have been
+                  working with frontend development for 2 years now and I will
+                  graduate in the summer of 2022. My interest in creative
+                  development comes from my passion to beeing able to create
+                  something from idea to a finished product. The opportunities
+                  and possibilities in web development is what inspires me to do
+                  what I do.
+                </p>
+              </Paragraph>
+              <H2 style={{ color: 'var(--color-white)' }}>Skills</H2>
+              <span className={styles.orangeLine}></span>
+              <Paragraph>
+                <p style={{ color: 'var(--color-white)' }}>
+                  Through my studies at Noroff I have gathered most experience
+                  in HTML, CSS and Javascript. As well as creating responsive
+                  application through pure CSS, I also have worked with
+                  frameworks like Bootstrap. I do most of my designs in Figma,
+                  but I have also been working with Adobe XD.
+                </p>
+              </Paragraph>
+              <Paragraph>
+                <p style={{ color: 'var(--color-white)' }}>
+                  Some of the things I do want to learn more about is Javascript
+                  libraries such as React. I have worked a bit with React and
+                  Next.js and want to emprove at this. I have also worked with
+                  Node.js, Tailwind, Wordpress and Strapi
+                </p>
+              </Paragraph>
+            </AboutWrapper>
+          </AboutSection>
         </Main>
         <Footer></Footer>
       </Body>
