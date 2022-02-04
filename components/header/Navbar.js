@@ -14,10 +14,10 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <Disclosure as='nav' className='bg-white-100'>
+    <Disclosure as='nav' className='bg-white-100 w-full'>
       {({ open }) => (
         <>
-          <div className='max-w-7xl mx-auto px-0 sm:px-4 md:px-14 lg:px-11'>
+          <div className='max-w-7xl sm:px-4 sm:mx-0 md:mx-10 md:px-0 lg:mx-10 lg:px-0'>
             <div className='relative flex items-center justify-between h-16'>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-center'>
                 <div className='flex-1 flex items-center'>
