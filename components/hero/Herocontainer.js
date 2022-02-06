@@ -5,19 +5,13 @@ const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: var(--size-sm);
   padding: 0;
   width: 50%;
-  height: 100%;
-
-  ${media.lessThan('medium')`
-  width: 90%;`}
+  margin-top: -150px;
 
   ${media.lessThan('small')`
-  gap: var(--size-sm);`}
-
-  ${media.greaterThan('large')`
-  margin-top: -100px;`}
+  width: 90%;
+  margin-top: 50px;`}
 `;
 
 export default HeroContainer;

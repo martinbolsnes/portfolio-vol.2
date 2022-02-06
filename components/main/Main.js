@@ -4,11 +4,17 @@ import media from 'styled-media-query';
 const Main = styled.div`
   width: 100%;
   flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 70px;
+  margin-right: var(--size-xl);
+  margin-left: var(--size-xl);
+  margin-top: 70px;
+
+  ${media.lessThan('medium')`
+  margin-right: var(--size-sm);
+  margin-left: var(--size-sm);`}
+
+  ${media.lessThan('small')`
+  margin-right: var(--size-xs);
+  margin-left: var(--size-xs);`}
 `;
 
 export default Main;
