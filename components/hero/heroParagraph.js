@@ -4,9 +4,11 @@ import media from 'styled-media-query';
 const HeroParagraph = styled.p`
   width: 80%;
   font-size: var(--font-size-md);
+  line-height: 150%;
+  margin: 0;
 
   ${media.lessThan('large')`
-  width: 80%`}
+  width: 90%`}
 
   ${media.lessThan('medium')`
   font-size: var(--font-size-base);`}

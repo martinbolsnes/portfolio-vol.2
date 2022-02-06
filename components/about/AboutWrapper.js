@@ -1,19 +1,17 @@
 import styled from 'styled-components';
 import media from 'styled-media-query';
 
-const StyledNav = styled.div`
-  height: inherit;
-  width: 100%;
+const AboutWrapper = styled.div`
+  max-width: 1440px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  flex-direction: column;
   padding-right: var(--size-xl);
   padding-left: var(--size-xl);
+  margin-bottom: var(--size-xl);
 
   ${media.lessThan('medium')`
   padding-right: var(--size-md);
   padding-left: var(--size-md);`}
 `;
 
-export default StyledNav;
+export default AboutWrapper;

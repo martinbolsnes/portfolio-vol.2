@@ -31,6 +31,7 @@ const GlobalStyle = createGlobalStyle`
   
     /* SPACING */
   
+    --size-3xs: 2px;
     --size-xxs: 4px;
     --size-xs: 7px;
     --size-sm: 10px;
@@ -120,7 +121,7 @@ const GlobalStyle = createGlobalStyle`
 
   p{
       font-family: var(--font-body);
-      font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-regular);
   }
 `;
 
