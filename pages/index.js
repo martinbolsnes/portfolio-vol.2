@@ -54,20 +54,22 @@ export default function Home() {
           </HeroWrapper>
           <AboutSection>
             <AboutWrapper>
-              <H2 style={{ color: 'var(--color-white)' }}>About me</H2>
-              <span className={styles.orangeLine}></span>
-              <Paragraph>
-                <p style={{ color: 'var(--color-white)' }}>
-                  I’m currently studying frontend development at Noroff School
-                  of technology and digital media in Oslo, Norway. I have been
-                  working with frontend development for 2 years now and I will
-                  graduate in the summer of 2022. My interest in creative
-                  development comes from my passion to beeing able to create
-                  something from idea to a finished product. The opportunities
-                  and possibilities in web development is what inspires me to do
-                  what I do.
-                </p>
-              </Paragraph>
+              <div className='aboutMe-container'>
+                <H2 style={{ color: 'var(--color-white)' }}>About me</H2>
+                <span className={styles.orangeLine}></span>
+                <Paragraph>
+                  <p style={{ color: 'var(--color-white)' }}>
+                    I’m currently studying frontend development at Noroff School
+                    of technology and digital media in Oslo, Norway. I have been
+                    working with frontend development for 2 years now and I will
+                    graduate in the summer of 2022. My interest in creative
+                    development comes from my passion to beeing able to create
+                    something from idea to a finished product. The opportunities
+                    and possibilities in web development is what inspires me to
+                    do what I do.
+                  </p>
+                </Paragraph>
+              </div>
               <H2 style={{ color: 'var(--color-white)' }}>Skills</H2>
               <span className={styles.orangeLine}></span>
               <BrandIconsFirst />
