@@ -126,7 +126,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--size-md);
-  margin-bottom: var(--size-lg);
+  margin-bottom: var(--size-xl);
 }
 
 @media (max-width: 450px) {
@@ -176,6 +176,11 @@
   .projectIcons {
     margin-top: var(--size-md);
     margin-bottom: var(--size-md);
+  }
+
+  .contactWrapper {
+    padding-right: var(--size-md);
+    padding-left: var(--size-md);
   }
 }
 
