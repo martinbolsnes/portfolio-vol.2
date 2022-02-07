@@ -20,6 +20,10 @@ import Paragraph from '../components/paragraph/Paragraph';
 import BrandIconsFirst from '../components/icons/BrandIconsFirst';
 import BrandIconsSecond from '../components/icons/BrandIconsSecond';
 import ArrowIcon from '../components/icons/ArrowDown';
+import ProjectsSection from '../components/projects/ProjectsSection';
+import ProjectsWrapper from '../components/projects/ProjectsWrapper';
+import ProjectOne from '../components/projects/ProjectOne';
+import ProjectTwo from '../components/projects/ProjectTwo';
 
 export default function Home() {
   return (
@@ -98,6 +102,18 @@ export default function Home() {
               </Paragraph>
             </AboutWrapper>
           </AboutSection>
+          <ProjectsSection>
+            <ProjectsWrapper>
+              <H2>Recent Projects</H2>
+              <span className={styles.orangeLine}></span>
+              <ProjectOne />
+              <span
+                className={styles.orangeLine}
+                style={{ width: '100%' }}
+              ></span>
+              <ProjectTwo />
+            </ProjectsWrapper>
+          </ProjectsSection>
         </Main>
         <Footer></Footer>
       </Body>

@@ -59,6 +59,57 @@
   margin-top: var(--size-xxl);
 }
 
+.projectContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--size-xxl);
+}
+
+.projectInfoContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--size);
+}
+
+.projectImgOne {
+  background-image: url(../public/projectOne.png);
+}
+
+.projectImgTwo {
+  background-image: url(../public/projectTwo.png);
+}
+
+.projectImgOne,
+.projectImgTwo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+}
+
+.projectInfo {
+  width: 50%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size);
+}
+
+.projectIcons {
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-lg);
+  margin-top: var(--size-md);
+  margin-bottom: var(--size-xxl);
+}
+
 @media (max-width: 450px) {
   .heroImg {
     width: 50%;
@@ -77,6 +128,35 @@
 
   .some_container {
     gap: var(--size-xxs);
+  }
+
+  .projectContainer {
+    margin-top: var(--size-md);
+  }
+
+  .projectInfo {
+    margin-top: var(--size-md);
+  }
+
+  .projectInfo,
+  .projectImgOne,
+  .projectImgTwo {
+    width: 100%;
+    height: 50%;
+  }
+
+  .projectInfoContainer {
+    flex-direction: column;
+  }
+
+  .projectImgOne,
+  .projectImgTwo {
+    margin-top: var(--size-md);
+  }
+
+  .projectIcons {
+    margin-top: var(--size-md);
+    margin-bottom: var(--size-md);
   }
 }
 
