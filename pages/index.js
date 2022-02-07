@@ -24,6 +24,7 @@ import ProjectsSection from '../components/projects/ProjectsSection';
 import ProjectsWrapper from '../components/projects/ProjectsWrapper';
 import ProjectOne from '../components/projects/ProjectOne';
 import ProjectTwo from '../components/projects/ProjectTwo';
+import Contact from '../components/contact/Contact';
 
 export default function Home() {
   return (
@@ -114,6 +115,7 @@ export default function Home() {
               <ProjectTwo />
             </ProjectsWrapper>
           </ProjectsSection>
+          <Contact />
         </Main>
         <Footer></Footer>
       </Body>
