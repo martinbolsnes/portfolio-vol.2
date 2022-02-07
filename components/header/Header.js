@@ -8,13 +8,6 @@ const Header = styled.header`
   flex: 0 0 auto;
   background-color: var(--color-white);
   z-index: var(--z-sky);
-  /* padding-right: var(--size-sm);
-  padding-left: var(--size-sm); */
-
-  /* ${media.lessThan('medium')`
-  padding-right: var(--size-md);
-  padding-left: var(--size-md);
-  `} */
 `;
 
 export default Header;
