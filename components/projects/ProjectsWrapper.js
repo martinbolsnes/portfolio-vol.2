@@ -3,6 +3,7 @@ import media from 'styled-media-query';
 
 const ProjectsWrapper = styled.div`
   max-width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-right: var(--size-xl);
