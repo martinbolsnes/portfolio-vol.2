@@ -19,6 +19,7 @@ import AboutSection from '../components/about/AboutSection';
 import Paragraph from '../components/paragraph/Paragraph';
 import BrandIconsFirst from '../components/icons/BrandIconsFirst';
 import BrandIconsSecond from '../components/icons/BrandIconsSecond';
+import ArrowIcon from '../components/icons/ArrowDown';
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
               <SoMeContainer></SoMeContainer>
             </div>
           </HeroWrapper>
+          <ArrowIcon size={54} strokeWidth={1} color='var(--color-secondary)' />
           <AboutSection>
             <AboutWrapper>
               <div className={styles.aboutMeContainer}>
