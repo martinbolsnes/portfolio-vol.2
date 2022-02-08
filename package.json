@@ -19,8 +19,10 @@
     "animate.css": "^4.1.1",
     "next": "12.0.8",
     "react": "17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "17.0.2",
     "react-feather": "^2.0.9",
+    "react-reveal": "^1.2.2",
     "styled-components": "^5.3.3",
     "styled-media-query": "^2.1.2"
   },

@@ -4,6 +4,7 @@ import H2 from '../headings/H2';
 import EnvelopeIcon from '../icons/EnvelopeIcon';
 import Paragraph from '../paragraph/Paragraph';
 import SecondaryButton from '../buttons/SecondaryButton';
+import Fade from 'react-reveal/Fade';
 
 export default function Contact() {
   return (
@@ -24,15 +25,17 @@ export default function Contact() {
           I'm open for work at the moment so if you like what I do you are
           welcome to reach out to me!
         </Paragraph>
-        <SecondaryButton
-          style={{
-            backgroundColor: 'transparent',
-            borderColor: 'var(--color-white)',
-            color: 'var(--color-white)',
-          }}
-        >
-          Email me
-        </SecondaryButton>
+        <Fade bottom>
+          <SecondaryButton
+            style={{
+              backgroundColor: 'transparent',
+              borderColor: 'var(--color-white)',
+              color: 'var(--color-white)',
+            }}
+          >
+            Email me
+          </SecondaryButton>
+        </Fade>
       </div>
     </div>
   );

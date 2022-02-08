@@ -9,6 +9,7 @@ import SecondaryButton from '../buttons/SecondaryButton';
 import SoMeContainer from './SoMeContainer';
 import ArrowIcon from '../icons/ArrowDown';
 import styles from '../../styles/Home.module.css';
+import Pulse from 'react-reveal/Pulse';
 
 export default function Hero() {
   return (
@@ -16,11 +17,13 @@ export default function Hero() {
       <HeroWrapper>
         <HeroContainer>
           <HeroParagraph>Hi there, I'm</HeroParagraph>
-          <HeroHeading>
-            Martin Bolsønes
-            <br />
-            <HeroHeadingSpan>Frontend developer</HeroHeadingSpan>
-          </HeroHeading>
+          <Pulse duration={2000}>
+            <HeroHeading>
+              Martin Bolsønes
+              <br />
+              <HeroHeadingSpan>Frontend developer</HeroHeadingSpan>
+            </HeroHeading>
+          </Pulse>
           <span className={styles.orangeLine}></span>
           <HeroParagraph>
             Frontend devlopment student in Oslo. Enjoy creating modern web
@@ -33,7 +36,9 @@ export default function Hero() {
           </div>
         </HeroContainer>
         <div className={styles.imgSomeContainer}>
-          <div className={styles.heroImg} />
+          <Pulse duration={2000}>
+            <div className={styles.heroImg} />
+          </Pulse>
           <SoMeContainer></SoMeContainer>
         </div>
       </HeroWrapper>
