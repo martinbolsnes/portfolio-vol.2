@@ -40,7 +40,7 @@ export default function Navigation() {
                           className={classNames(
                             item.current
                               ? 'bg-primary-100 text-white-100'
-                              : 'text-black-100 hover:bg-tertiary-100 hover:text-white-100',
+                              : 'text-black-100 hover:bg-primary-100 hover:text-white-100',
                             'px-3 py-2 rounded-md text-sm font-serif font-black'
                           )}
                           aria-current={item.current ? 'page' : undefined}
