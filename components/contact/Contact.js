@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.css';
 import H2 from '../headings/H2';
 import EnvelopeIcon from '../icons/EnvelopeIcon';
 import Paragraph from '../paragraph/Paragraph';
-import SecondaryButton from '../buttons/SecondaryButton';
+import ContactButton from '../buttons/ContactButton';
 import Fade from 'react-reveal/Fade';
 
 export default function Contact() {
@@ -26,15 +26,17 @@ export default function Contact() {
           welcome to reach out to me!
         </Paragraph>
         <Fade bottom>
-          <SecondaryButton
-            style={{
-              backgroundColor: 'transparent',
-              borderColor: 'var(--color-white)',
-              color: 'var(--color-white)',
-            }}
-          >
-            Email me
-          </SecondaryButton>
+          <a href='mailto:martinbolsnes@icloud.com'>
+            <ContactButton
+              style={{
+                backgroundColor: 'transparent',
+                borderColor: 'var(--color-white)',
+                color: 'var(--color-white)',
+              }}
+            >
+              Email me
+            </ContactButton>
+          </a>
         </Fade>
       </div>
     </div>
