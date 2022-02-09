@@ -22,8 +22,12 @@ export default function ProjectTwo() {
         </div>
       </div>
       <div className={styles.projectIcons}>
-        <GithubIconTwo />
-        <NetlifyIcon />
+        <a href='https://github.com/martinbolsnes/projectExam1'>
+          <GithubIconTwo />
+        </a>
+        <a href='https://project-exam1-971996.netlify.app'>
+          <NetlifyIcon />
+        </a>
       </div>
     </div>
   );

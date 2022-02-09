@@ -7,15 +7,22 @@ import styles from '../../styles/Home.module.css';
 export default function SoMeContainer() {
   return (
     <div className={styles.some_container}>
-      <GithubIcon
-        size={54}
-        strokeWidth={1}
-        color='var(--color-tertiary)'
-        href='https://github.com/martinbolsnes'
-      />
-      <LinkedinIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
-      <TwitterIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
-      <InstagramIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
+      <a href='https://github.com/martinbolsnes'>
+        <GithubIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
+      </a>
+      <a href='https://www.linkedin.com/in/martin-bols%C3%B8nes-5973941b5/'>
+        <LinkedinIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
+      </a>
+      <a href='https://twitter.com/martinbolsnes'>
+        <TwitterIcon size={54} strokeWidth={1} color='var(--color-tertiary)' />
+      </a>
+      <a href='https://www.instagram.com/martinbolsnes/'>
+        <InstagramIcon
+          size={54}
+          strokeWidth={1}
+          color='var(--color-tertiary)'
+        />
+      </a>
     </div>
   );
 }

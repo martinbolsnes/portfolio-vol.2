@@ -19,10 +19,18 @@ export default function FooterContainer() {
       <div
         style={{ display: 'flex', flexDirection: 'row', gap: 'var(--size)' }}
       >
-        <GithubIcon size={24} color='var(--color-white)' strokeWidth={1} />
-        <LinkedinIcon size={24} color='var(--color-white)' strokeWidth={1} />
-        <TwitterIcon size={24} color='var(--color-white)' strokeWidth={1} />
-        <InstagramIcon size={24} color='var(--color-white)' strokeWidth={1} />
+        <a href='https://github.com/martinbolsnes'>
+          <GithubIcon size={24} color='var(--color-white)' strokeWidth={1} />
+        </a>
+        <a href='https://www.linkedin.com/in/martin-bols%C3%B8nes-5973941b5/'>
+          <LinkedinIcon size={24} color='var(--color-white)' strokeWidth={1} />
+        </a>
+        <a href='https://twitter.com/martinbolsnes'>
+          <TwitterIcon size={24} color='var(--color-white)' strokeWidth={1} />
+        </a>
+        <a href='https://www.instagram.com/martinbolsnes/'>
+          <InstagramIcon size={24} color='var(--color-white)' strokeWidth={1} />
+        </a>
       </div>
     </div>
   );
