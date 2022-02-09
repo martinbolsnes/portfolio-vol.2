@@ -10,11 +10,12 @@ import SoMeContainer from './SoMeContainer';
 import ArrowIcon from '../icons/ArrowDown';
 import styles from '../../styles/Home.module.css';
 import Pulse from 'react-reveal/Pulse';
+import ScrollIntoView from 'react-scroll-into-view';
 
 export default function Hero() {
   return (
     <>
-      <HeroWrapper>
+      <HeroWrapper id='hero'>
         <HeroContainer>
           <HeroParagraph>Hi there, I'm</HeroParagraph>
           <Pulse duration={2000}>
@@ -31,8 +32,12 @@ export default function Hero() {
             programming.
           </HeroParagraph>
           <div className={styles.btnContainer}>
-            <PrimaryButton>About me</PrimaryButton>
-            <SecondaryButton>Browse my projects</SecondaryButton>
+            <ScrollIntoView selector='#about'>
+              <PrimaryButton>About me</PrimaryButton>
+            </ScrollIntoView>
+            <ScrollIntoView selector='#projects'>
+              <SecondaryButton>Browse my projects</SecondaryButton>
+            </ScrollIntoView>
           </div>
         </HeroContainer>
         <div className={styles.imgSomeContainer}>

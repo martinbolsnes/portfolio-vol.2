@@ -11,7 +11,7 @@ import Zoom from 'react-reveal/Zoom';
 export default function About() {
   return (
     <>
-      <AboutSection>
+      <AboutSection id='about'>
         <AboutWrapper>
           <div className={styles.aboutMeContainer}>
             <div className={styles.aboutHeadingContainer}>

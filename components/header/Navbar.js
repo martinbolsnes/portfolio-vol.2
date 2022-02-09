@@ -1,11 +1,12 @@
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import ScrollIntoView from 'react-scroll-into-view';
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', href: '#hero', current: true },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ];
 
 function classNames(...classes) {
@@ -31,24 +32,26 @@ export default function Navigation() {
                 <div className='hidden sm:block sm:ml-6'>
                   <div className='flex space-x-4'>
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? 'bg-primary-100 text-white-100'
-                            : 'text-black-100 hover:bg-tertiary-100 hover:text-white-100',
-                          'px-3 py-2 rounded-md text-sm font-serif font-black'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      // eslint-disable-next-line react/jsx-key
+                      <ScrollIntoView selector={item.href}>
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className={classNames(
+                            item.current
+                              ? 'bg-primary-100 text-white-100'
+                              : 'text-black-100 hover:bg-tertiary-100 hover:text-white-100',
+                            'px-3 py-2 rounded-md text-sm font-serif font-black'
+                          )}
+                          aria-current={item.current ? 'page' : undefined}
+                        >
+                          {item.name}
+                        </a>
+                      </ScrollIntoView>
                     ))}
                   </div>
                 </div>
                 <div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
-                  {/* Mobile menu button*/}
                   <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-black-100 hover:text-white-100 hover:bg-tertiary-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-tertiary-100'>
                     <span className='sr-only'>Open main menu</span>
                     {open ? (

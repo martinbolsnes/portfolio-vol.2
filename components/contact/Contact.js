@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Contact() {
   return (
-    <div className={styles.contactSection}>
+    <div className={styles.contactSection} id='contact'>
       <div className={styles.contactWrapper}>
         <div>
           <H2 style={{ color: 'var(--color-white)' }}>Contact me</H2>

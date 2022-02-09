@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 export default function Projects() {
   return (
     <>
-      <ProjectsSection>
+      <ProjectsSection id='projects'>
         <ProjectsWrapper>
           <Fade bottom>
             <H2>Recent Projects</H2>
