@@ -12,7 +12,7 @@
   background-size: contain;
   height: 85%;
   width: 70%;
-  z-index: 100;
+  z-index: -1;
   margin-left: -50px;
 }
 

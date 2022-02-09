@@ -33,6 +33,9 @@ const SecondaryButton = styled.button`
   font-size: var(--font-size-base);
   padding: 10px 16px 12px;
   margin: 0;`}
+
+  ${media.lessThan('small')`
+  display: none;`}
 `;
 
 export default SecondaryButton;
