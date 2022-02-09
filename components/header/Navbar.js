@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import ScrollIntoView from 'react-scroll-into-view';
 
 const navigation = [
-  { name: 'Home', href: '#hero', current: true },
+  { name: 'Home', href: '#hero', current: false },
   { name: 'About', href: '#about', current: false },
   { name: 'Projects', href: '#projects', current: false },
   { name: 'Contact', href: '#contact', current: false },
