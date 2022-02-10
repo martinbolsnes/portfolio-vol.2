@@ -18,14 +18,12 @@ export default function Hero() {
       <HeroWrapper id='hero'>
         <HeroContainer>
           <HeroParagraph>Hi there, I'm</HeroParagraph>
-          <Pulse duration={2000}>
-            <HeroHeading>
-              Martin Bolsønes
-              <br />
-              <HeroHeadingSpan>Frontend developer</HeroHeadingSpan>
-            </HeroHeading>
-          </Pulse>
-          <span className={styles.orangeLine}></span>
+          <HeroHeading>
+            Martin Bolsønes
+            <br />
+            <HeroHeadingSpan>Frontend developer</HeroHeadingSpan>
+            <div className={styles.orangeLineHero}></div>
+          </HeroHeading>
           <HeroParagraph>
             Frontend devlopment student in Oslo. Enjoy creating modern web
             applications and is eager to learn and emprove in both design and
