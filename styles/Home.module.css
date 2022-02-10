@@ -210,11 +210,39 @@
     padding-right: var(--size-md);
     padding-left: var(--size-md);
   }
+
+  @keyframes orangeLineHero {
+    0% {
+      width: 95%;
+    }
+
+    100% {
+      width: 10%;
+    }
+  }
+
+  .orangeLineHero {
+    width: 95%;
+  }
 }
 
 @media (max-width: 768px) {
   .orangeLine {
     width: 35px;
+  }
+
+  @keyframes orangeLineHero {
+    0% {
+      width: 55%;
+    }
+
+    100% {
+      width: 5%;
+    }
+  }
+
+  .orangeLineHero {
+    width: 55%;
   }
 
   .imgSomeContainer {

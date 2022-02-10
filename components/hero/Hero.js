@@ -39,7 +39,7 @@ export default function Hero() {
           </div>
         </HeroContainer>
         <div className={styles.imgSomeContainer}>
-          <Pulse duration={2000}>
+          <Pulse forever duration={4000}>
             <div className={styles.heroImg} />
           </Pulse>
           <SoMeContainer></SoMeContainer>
