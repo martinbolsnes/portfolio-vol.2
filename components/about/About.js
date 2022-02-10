@@ -6,7 +6,7 @@ import Paragraph from '../paragraph/Paragraph';
 import BrandIconsFirst from '../icons/BrandIconsFirst';
 import BrandIconsSecond from '../icons/BrandIconsSecond';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
+import Flip from 'react-reveal/Flip';
 
 export default function About() {
   return (
@@ -34,9 +34,9 @@ export default function About() {
                 </Paragraph>
               </Fade>
             </div>
-            <Zoom>
+            <Flip right delay={500} duration={1800}>
               <div className={styles.aboutImg}></div>
-            </Zoom>
+            </Flip>
           </div>
           <Fade bottom>
             <H2 style={{ color: 'var(--color-white)' }}>Skills</H2>
