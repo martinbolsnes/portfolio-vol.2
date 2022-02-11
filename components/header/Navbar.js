@@ -27,7 +27,7 @@ export default function Navigation() {
                       WebkitTextStrokeColor: 'var(--color-black)',
                       WebkitTextStrokeWidth: 0.5,
                     }}
-                    className='block lg:hidden h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'
+                    className='block lg:hidden h-8 w-auto font-display text-4xl text-logoColor-100'
                   >
                     mb<span className='text-black-100'>.</span>
                   </h1>
@@ -36,7 +36,7 @@ export default function Navigation() {
                       WebkitTextStrokeColor: 'var(--color-black)',
                       WebkitTextStrokeWidth: 0.5,
                     }}
-                    className='hidden lg:block h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'
+                    className='hidden lg:block h-8 w-auto font-display text-4xl text-logoColor-100'
                   >
                     mb<span className='text-black-100'>.</span>
                   </h1>
@@ -45,7 +45,7 @@ export default function Navigation() {
                   <div className='flex space-x-4'>
                     {navigation.map((item) => (
                       // eslint-disable-next-line react/jsx-key
-                      <ScrollIntoView selector={item.href}>
+                      <ScrollIntoView alignToTop={true} selector={item.href}>
                         <a
                           key={item.name}
                           href={item.href}

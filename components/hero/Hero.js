@@ -30,10 +30,10 @@ export default function Hero() {
             programming.
           </HeroParagraph>
           <div className={styles.btnContainer}>
-            <ScrollIntoView selector='#about'>
+            <ScrollIntoView alignToTop={true} selector='#about'>
               <PrimaryButton>About me</PrimaryButton>
             </ScrollIntoView>
-            <ScrollIntoView selector='#projects'>
+            <ScrollIntoView alignToTop={true} selector='#projects'>
               <SecondaryButton>Browse my projects</SecondaryButton>
             </ScrollIntoView>
           </div>
