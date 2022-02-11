@@ -22,10 +22,22 @@ export default function Navigation() {
             <div className='relative flex items-center justify-between h-16'>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-center'>
                 <div className='flex-1 flex items-center'>
-                  <h1 className='block lg:hidden h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'>
+                  <h1
+                    style={{
+                      WebkitTextStrokeColor: 'var(--color-black)',
+                      WebkitTextStrokeWidth: 0.5,
+                    }}
+                    className='block lg:hidden h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'
+                  >
                     mb<span className='text-black-100'>.</span>
                   </h1>
-                  <h1 className='hidden lg:block h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'>
+                  <h1
+                    style={{
+                      WebkitTextStrokeColor: 'var(--color-black)',
+                      WebkitTextStrokeWidth: 0.5,
+                    }}
+                    className='hidden lg:block h-8 w-auto font-display text-4xl text-logoColor-100 text-stroke-1 text-stroke-black-100'
+                  >
                     mb<span className='text-black-100'>.</span>
                   </h1>
                 </div>
