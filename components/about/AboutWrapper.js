@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import media from 'styled-media-query';
+import styled from "styled-components";
+import media from "styled-media-query";
 
 const AboutWrapper = styled.div`
   max-width: 1440px;
@@ -9,7 +9,8 @@ const AboutWrapper = styled.div`
   padding-left: var(--size-xl);
   margin-bottom: var(--size-xl);
 
-  ${media.lessThan('medium')`
+  // You should code for mobile first
+  ${media.lessThan("medium")`
   padding-right: var(--size-md);
   padding-left: var(--size-md);`}
 `;
