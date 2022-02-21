@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import media from 'styled-media-query';
+import styled from "styled-components";
+import media from "styled-media-query";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -10,13 +10,14 @@ const HeroContainer = styled.div`
   width: 50%;
   height: 100%;
 
-  ${media.lessThan('medium')`
+  ${media.lessThan("medium")`
   width: 90%;`}
 
-  ${media.lessThan('small')`
+  ${media.lessThan("small")`
   gap: var(--size-sm);`}
 
-  ${media.greaterThan('large')`
+  // Why is there negative margins? Indicates bad css implementation.
+  ${media.greaterThan("large")`
   margin-top: -100px;`}
 `;
 
