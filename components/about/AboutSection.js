@@ -6,7 +6,6 @@ const AboutSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color-primary);
 `;
 
 export default AboutSection;

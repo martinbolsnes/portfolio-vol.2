@@ -17,27 +17,27 @@ export default function BrandIconsFirst() {
       <FontAwesomeIcon
         icon={['fab', 'html5']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
       <FontAwesomeIcon
         icon={['fab', 'css3-alt']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
       <FontAwesomeIcon
         icon={['fab', 'js']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
       <FontAwesomeIcon
         icon={['fab', 'bootstrap']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
       <FontAwesomeIcon
         icon={['fab', 'figma']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
     </div>
   );

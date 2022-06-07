@@ -17,12 +17,12 @@ export default function BrandIconsSecond() {
       <FontAwesomeIcon
         icon={['fab', 'react']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
       <FontAwesomeIcon
         icon={['fab', 'node-js']}
         size='3x'
-        color='var(--color-white)'
+        color='var(--color-primary)'
       />
     </div>
   );
