@@ -3,6 +3,7 @@ import media from 'styled-media-query';
 
 const Footer = styled.footer`
   width: 100%;
+  height: fit-content;
   flex: 0 0 80px;
   background-color: var(--color-black);
   display: flex;
