@@ -23,7 +23,7 @@ export default function Home() {
           <Projects />
           <Contact />
         </Main>
-        <Footer>
+        <Footer className='bg-color-black w-full py-14 lg:py-6'>
           <FooterContainer />
         </Footer>
       </Body>
