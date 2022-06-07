@@ -105,8 +105,18 @@
   background-image: url(../public/projectTwo.png);
 }
 
+.projectImgThree {
+  background-image: url(../public/Holidaze-screenshot.png);
+}
+
+.projectImgFour {
+  background-image: url(../public/courseAssignment-screenshot.png);
+}
+
 .projectImgOne,
-.projectImgTwo {
+.projectImgTwo,
+.projectImgThree,
+.projectImgFour {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
