@@ -7,7 +7,7 @@ const HeroContainer = styled.div`
   justify-content: center;
   gap: var(--size-sm);
   padding: 0;
-  width: 50%;
+  width: 60%;
   height: 100%;
 
   ${media.lessThan('medium')`
