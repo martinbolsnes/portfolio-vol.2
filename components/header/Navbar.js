@@ -13,12 +13,12 @@ const navigation = [
 export default function Navigation() {
   const router = useRouter();
   return (
-    <Disclosure as='nav' className='bg-white-100 w-full max-w-screen-2xl'>
+    <Disclosure as='nav' className='bg-white-100'>
       {({ open }) => (
         <>
-          <div className='max-w-7xl px-7 sm:px-4 sm:mx-0 md:mx-0 md:px-12 lg:mx-10 lg:px-4'>
+          <div className='max-w-7xl mx-auto px-6 sm:px-6 lg:px-8'>
             <div className='relative flex items-center justify-between h-16'>
-              <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-center'>
+              <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
                 <div className='flex-1 flex items-center'>
                   <h1
                     style={{
