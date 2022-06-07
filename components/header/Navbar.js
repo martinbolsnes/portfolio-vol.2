@@ -1,19 +1,17 @@
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import ScrollIntoView from 'react-scroll-into-view';
+import { useRouter } from 'next/router';
 
 const navigation = [
-  { name: 'Home', href: '#hero', current: false },
-  { name: 'About', href: '#about', current: false },
-  { name: 'Projects', href: '#projects', current: false },
-  { name: 'Contact', href: '#contact', current: false },
+  { name: 'Home', href: '#hero' },
+  { name: 'About', href: '#about' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Contact', href: '#contact' },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
-
 export default function Navigation() {
+  const router = useRouter();
   return (
     <Disclosure as='nav' className='bg-white-100 w-full max-w-screen-2xl'>
       {({ open }) => (
@@ -49,13 +47,11 @@ export default function Navigation() {
                         <a
                           key={item.name}
                           href={item.href}
-                          className={classNames(
-                            item.current
+                          className={`px-3 py-2 rounded-md text-sm font-serif font-black hover:bg-primary-100 hover:text-white-100 ${
+                            router.pathname === `/${item.href}`
                               ? 'bg-primary-100 text-white-100'
-                              : 'text-black-100 hover:bg-primary-100 hover:text-white-100',
-                            'px-3 py-2 rounded-md text-sm font-serif font-black'
-                          )}
-                          aria-current={item.current ? 'page' : undefined}
+                              : ''
+                          }`}
                         >
                           {item.name}
                         </a>
@@ -84,13 +80,11 @@ export default function Navigation() {
                   key={item.name}
                   as='a'
                   href={item.href}
-                  className={classNames(
-                    item.current
+                  className={`px-3 py-2 block rounded-md text-base font-serif font-black hover:bg-primary-100 hover:text-white-100 ${
+                    router.pathname === `/${item.href}`
                       ? 'bg-primary-100 text-white-100'
-                      : 'text-black-100 hover:bg-tertiary-100 hover:text-white-100',
-                    'block px-3 py-2 rounded-md text-base font-black'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
+                      : ''
+                  }`}
                 >
                   {item.name}
                 </Disclosure.Button>
