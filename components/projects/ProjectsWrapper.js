@@ -6,8 +6,6 @@ const ProjectsWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-right: var(--size-xl);
-  padding-left: var(--size-xl);
   margin-bottom: var(--size-xl);
 
   ${media.lessThan('medium')`
