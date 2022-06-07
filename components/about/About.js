@@ -63,9 +63,9 @@ export default function About() {
             <Paragraph>
               <p style={{ color: 'var(--color-white)' }}>
                 Some of the things I do want to learn more about is Javascript
-                libraries such as React. I have worked a bit with React and
-                Next.js and want to emprove at this. I have also worked with
-                Node.js, Tailwind, Wordpress and Strapi
+                libraries such as React. I have worked with React and Next.js in
+                my latest projects and want to emprove at this. I have also
+                worked with Node.js, Tailwind, Wordpress and Strapi
               </p>
             </Paragraph>
           </Fade>
