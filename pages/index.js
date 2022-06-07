@@ -17,14 +17,14 @@ export default function Home() {
         <Header>
           <NavBar />
         </Header>
-        <Main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
+        <Main className='mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
           <Hero />
           <About />
           <Projects />
           <Contact />
         </Main>
         <Footer className='bg-color-black w-full py-14 lg:py-6'>
-          <FooterContainer />
+          <FooterContainer className='px-4 sm:px-6 lg:px-8 w-full mx-auto max-w-7xl' />
         </Footer>
       </Body>
     </>
