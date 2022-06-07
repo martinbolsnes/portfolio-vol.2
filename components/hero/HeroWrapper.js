@@ -8,9 +8,11 @@ const HeroWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: -50px;
 
   ${media.lessThan('medium')`
-  flex-direction: column;`}
+  flex-direction: column;
+  margin-top: 50px`}
 `;
 
 export default HeroWrapper;
