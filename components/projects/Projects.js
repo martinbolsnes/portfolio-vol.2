@@ -44,9 +44,9 @@ export default function Projects() {
               style={{ width: '100%' }}
             ></span>
           </Fade>
-          <Fade bottom>
+          {/*           <Fade bottom>
             <ProjectFour />
-          </Fade>
+          </Fade> */}
         </ProjectsWrapper>
       </ProjectsSection>
     </>
