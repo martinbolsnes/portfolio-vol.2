@@ -25,7 +25,7 @@ export default function Hero() {
             <div className={styles.orangeLineHero}></div>
           </HeroHeading>
           <HeroParagraph>
-            Frontend devlopment student in Oslo. Enjoy creating modern web
+            Frontend devloper living in Fredrikstad. Enjoy creating modern web
             applications and is eager to learn and emprove in both design and
             programming.
           </HeroParagraph>

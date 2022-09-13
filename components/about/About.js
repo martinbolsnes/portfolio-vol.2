@@ -22,14 +22,13 @@ export default function About() {
               <Fade bottom>
                 <Paragraph style={{ width: '100%' }}>
                   <p style={{ color: 'var(--color-black)' }}>
-                    I’m currently studying frontend development at Noroff School
-                    of technology and digital media in Oslo, Norway. I have been
-                    working with frontend development for 2 years now and I will
-                    graduate in the summer of 2022. My interest in creative
-                    development comes from my passion to beeing able to create
-                    something from idea to a finished product. The opportunities
-                    and possibilities in web development is what inspires me to
-                    do what I do.
+                    I’m a frontend developer that finished my studies at Noroff
+                    School of technology and digital media in Oslo, Norway in
+                    2022. I have been working with frontend development for 2
+                    years now and my interest in creative development comes from
+                    my passion to beeing able to create something from idea to a
+                    finished product. The opportunities and possibilities in web
+                    development is what inspires me to do what I do.
                   </p>
                 </Paragraph>
               </Fade>
