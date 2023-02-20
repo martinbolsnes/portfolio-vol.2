@@ -2,7 +2,7 @@ import styles from '../../styles/Home.module.css';
 import H3 from '../headings/H3';
 import CircleIcon from '../icons/CircleIcon';
 import GithubIconTwo from '../icons/GithubIconTwo';
-import NetlifyIcon from '../icons/NetlifyIcon';
+import VercelIcon from '../icons/vercelIcon';
 
 export default function ProjectTwo() {
   return (
@@ -10,23 +10,23 @@ export default function ProjectTwo() {
       <div className={styles.projectInfoContainer}>
         <div className={styles.projectImgTwo}></div>
         <div className={styles.projectInfo}>
-          <H3>Wanderlust</H3>
+          <H3>Weather App</H3>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
             <CircleIcon size={16} />
-            <p>Travel blog</p>
+            <p>Current weather with Openweathermap API</p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
             <CircleIcon size={16} />
-            <p>Javascript - Strapi</p>
+            <p>NextJS - Tailwind</p>
           </div>
         </div>
       </div>
       <div className={styles.projectIcons}>
-        <a href='https://github.com/martinbolsnes/wanderlust'>
+        <a href='https://github.com/martinbolsnes/weather-app'>
           <GithubIconTwo />
         </a>
-        <a href='https://project-exam1-971996.netlify.app'>
-          <NetlifyIcon />
+        <a href='https://weather-app-smoky-omega.vercel.app/'>
+          <VercelIcon />
         </a>
       </div>
     </div>
