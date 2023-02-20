@@ -18,6 +18,15 @@ export default function Projects() {
             <span className={styles.orangeLine}></span>
           </Fade>
           <Fade bottom>
+            <ProjectTwo />
+          </Fade>
+          <Fade bottom>
+            <span
+              className={styles.orangeLine}
+              style={{ width: '100%' }}
+            ></span>
+          </Fade>
+          <Fade bottom>
             <ProjectThree />
           </Fade>
           <Fade bottom>
@@ -28,15 +37,6 @@ export default function Projects() {
           </Fade>
           <Fade bottom>
             <ProjectOne />
-          </Fade>
-          <Fade bottom>
-            <span
-              className={styles.orangeLine}
-              style={{ width: '100%' }}
-            ></span>
-          </Fade>
-          <Fade bottom>
-            <ProjectTwo />
           </Fade>
           <Fade bottom>
             <span
