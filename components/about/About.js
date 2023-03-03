@@ -64,7 +64,7 @@ export default function About() {
                 Some of the things I do want to learn more about is Javascript
                 libraries such as React. I have worked with React and Next.js in
                 my latest projects and want to emprove at this. I have also
-                worked with Node.js, Tailwind, Wordpress and Strapi
+                worked with Node.js, Tailwind, Wordpress, Strapi and Sanity.
               </p>
             </Paragraph>
           </Fade>
