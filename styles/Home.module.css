@@ -113,10 +113,15 @@
   background-image: url(../public/courseAssignment-screenshot.png);
 }
 
+.projectImgFive {
+  background-image: url(../public/projectFive.png);
+}
+
 .projectImgOne,
 .projectImgTwo,
 .projectImgThree,
-.projectImgFour {
+.projectImgFour,
+.projectImgFive {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
